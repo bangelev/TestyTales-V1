@@ -1,0 +1,241 @@
+[
+  {
+    "name": "Spaghetti Bolognese",
+    "category": "World",
+    "ingredients": [
+      "8 ounces spaghetti",
+      "1 pound ground beef",
+      "1 onion, diced",
+      "2 cloves garlic, minced",
+      "1 carrot, grated",
+      "1 can (14 ounces) crushed tomatoes",
+      "2 tablespoons tomato paste",
+      "1 teaspoon dried oregano",
+      "Salt and pepper to taste",
+      "Grated Parmesan cheese (for garnish)"
+    ],
+    "preparations": [
+      "Cook spaghetti according to package instructions, then drain and set aside.",
+      "In a large skillet, brown the ground beef over medium heat until fully cooked. Drain excess fat.",
+      "Add diced onion, minced garlic, and grated carrot to the skillet. Sauté until the vegetables are tender.",
+      "Stir in crushed tomatoes, tomato paste, dried oregano, salt, and pepper. Simmer for 15-20 minutes.",
+      "Serve the Bolognese sauce over cooked spaghetti and sprinkle with grated Parmesan cheese."
+    ],
+    "approximate_time": "30-40 minutes",
+    "photo_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=481&q=80"
+  },
+  {
+    "name": "Chicken Stir-Fry",
+    "category": "World",
+    "ingredients": [
+      "2 boneless, skinless chicken breasts, sliced",
+      "1 bell pepper, sliced",
+      "1 onion, sliced",
+      "2 cloves garlic, minced",
+      "1 cup broccoli florets",
+      "1/4 cup soy sauce",
+      "2 tablespoons oyster sauce",
+      "1 tablespoon cornstarch",
+      "2 tablespoons vegetable oil"
+    ],
+    "preparations": [
+      "In a small bowl, whisk together soy sauce, oyster sauce, and cornstarch. Set aside.",
+      "Heat vegetable oil in a large skillet or wok over high heat.",
+      "Add chicken slices to the hot skillet and cook until browned and cooked through. Remove from skillet and set aside.",
+      "In the same skillet, add bell pepper, onion, garlic, and broccoli. Stir-fry for 3-4 minutes until the vegetables are crisp-tender.",
+      "Return the cooked chicken to the skillet and pour the sauce mixture over the ingredients. Stir-fry for an additional 2-3 minutes until the sauce thickens and coats the ingredients.",
+      "Serve the chicken stir-fry over steamed rice or noodles."
+    ],
+    "approximate_time": "25-30 minutes",
+    "photo_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=481&q=80"
+  },
+  {
+    "name": "Caprese Salad",
+    "category": "World",
+    "ingredients": [
+      "2 large tomatoes, sliced",
+      "8 ounces fresh mozzarella cheese, sliced",
+      "Fresh basil leaves",
+      "2 tablespoons balsamic vinegar",
+      "2 tablespoons extra-virgin olive oil",
+      "Salt and pepper to taste"
+    ],
+    "preparations": [
+      "Arrange tomato and mozzarella slices on a platter, alternating between them.",
+      "Tuck fresh basil leaves between the tomato and mozzarella slices.",
+      "In a small bowl, whisk together balsamic vinegar, olive oil, salt, and pepper.",
+      "Drizzle the dressing over the tomato and mozzarella slices.",
+      "Let the salad marinate for a few minutes before serving."
+    ],
+    "approximate_time": "10-15 minutes",
+    "photo_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=481&q=80"
+  },
+
+  {
+    "name": "Beef Tacos",
+    "category": "World",
+    "ingredients": [
+      "1 pound ground beef",
+      "1 onion, diced",
+      "2 cloves garlic, minced",
+      "1 teaspoon chili powder",
+      "1 teaspoon ground cumin",
+      "1/2 teaspoon paprika",
+      "Salt and pepper to taste",
+      "Shredded lettuce, diced tomatoes, shredded cheese, and sour cream(for toppings)"
+    ],
+    "preparations": [
+      "In a skillet, cook ground beef over medium heat until browned. Drain excess fat.",
+      "Add diced onion and minced garlic to the skillet and sauté until fragrant.",
+      "Stir in chili powder, cumin, paprika, salt, and pepper. Cook for an additional 2-3 minutes.",
+      "Warm the tortillas in a separate skillet or microwave.",
+      "Fill each tortilla with the cooked beef mixture and top with shredded lettuce, diced tomatoes, shredded cheese, and sour cream.",
+      "Fold the tortillas and serve immediately."
+    ],
+    "approximate_time": "20-25 minutes",
+    "photo_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=481&q=80"
+  },
+  {
+    "name": "Vegetable Curry",
+    "category": "World",
+    "ingredients": [
+      "1 tablespoon vegetable oil",
+      "1 onion, diced",
+      "2 cloves garlic, minced",
+      "1 tablespoon curry powder",
+      "1 teaspoon ground cumin",
+      "1 teaspoon ground coriander",
+      "1 can (14 ounces) coconut milk",
+      "2 cups mixed vegetables (e.g., carrots, bell peppers, peas, cauliflower)",
+      "Salt and pepper to taste",
+      "Fresh cilantro (for garnish)",
+      "Cooked rice (for serving)"
+    ],
+    "preparations": [
+      "Heat vegetable oil in a large skillet over medium heat.",
+      "Add diced onion and minced garlic to the skillet. Sauté until the onion is translucent.",
+      "Stir in curry powder, cumin, and coriander. Cook for 1-2 minutes until fragrant.",
+      "Pour in coconut milk and bring to a simmer.",
+      "Add mixed vegetables to the skillet and cook until tender, about 10-15 minutes.",
+      "Season with salt and pepper to taste.",
+      "Serve the vegetable curry over cooked rice and garnish with fresh cilantro."
+    ],
+    "approximate_time": "25-30 minutes",
+    "photo_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=481&q=80"
+  },
+  {
+    "name": "Caesar Salad",
+    "category": "World",
+    "ingredients": [
+      "1 head romaine lettuce, torn into bite-sized pieces",
+      "1/2 cup grated Parmesan cheese",
+      "1/2 cup croutons",
+      "1/4 cup Caesar dressing",
+      "Salt and pepper to taste",
+      "Grilled chicken breast (optional)"
+    ],
+    "preparations": [
+      "In a large bowl, combine torn romaine lettuce, grated Parmesan cheese, and croutons.",
+      "Drizzle Caesar dressing over the salad and toss to coat the ingredients evenly.",
+      "Season with salt and pepper to taste.",
+      "If desired, add grilled chicken breast slices to the salad.",
+      "Serve the Caesar salad as a side dish or main course."
+    ],
+    "approximate_time": "10-15 minutes",
+    "photo_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=481&q=80"
+  },
+  {
+    "name": "Margherita Pizza",
+    "category": "Italian",
+    "ingredients": [
+      "1 prepared pizza dough",
+      "1/2 cup tomato sauce",
+      "8 ounces fresh mozzarella cheese, sliced",
+      "Fresh basil leaves",
+      "Extra-virgin olive oil",
+      "Salt and pepper to taste"
+    ],
+    "preparations": [
+      "Preheat the oven to the temperature specified on the pizza dough package.",
+      "Roll out the pizza dough on a floured surface to your desired thickness.",
+      "Place the rolled-out dough on a baking sheet or pizza stone.",
+      "Spread tomato sauce evenly over the dough, leaving a border around the edges.",
+      "Arrange mozzarella slices on top of the sauce.",
+      "Tear fresh basil leaves and sprinkle them over the pizza.",
+      "Drizzle olive oil over the pizza and season with salt and pepper.",
+      "Bake in the preheated oven according to the pizza dough package instructions, typically 10-15 minutes or until the crust is golden brown and the cheese is bubbly.",
+      "Remove from the oven and let the pizza cool for a few minutes before slicing and serving."
+    ],
+    "approximate_time": "20-25 minutes",
+    "photo_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=481&q=80"
+  },
+  {
+    "name": "Chocolate Chip Cookies",
+    "category": "Sweet",
+    "ingredients": [
+      "1 cup unsalted butter, softened",
+      "1 cup granulated sugar",
+      "1 cup brown sugar",
+      "2 large eggs",
+      "1 teaspoon vanilla extract",
+      "3 cups all-purpose flour",
+      "1 teaspoon baking soda",
+      "1/2 teaspoon salt",
+      "2 cups chocolate chips"
+    ],
+    "preparations": [
+      "Preheat the oven to 375°F (190°C).",
+      "In a large mixing bowl, cream together softened butter, granulated sugar, and brown sugar until light and fluffy.",
+      "Beat in the eggs one at a time, then add vanilla extract.",
+      "In a separate bowl, whisk together flour, baking soda, and salt. Gradually add the dry ingredients to the butter mixture and mix until just combined.",
+      "Stir in chocolate chips.",
+      "Drop rounded tablespoons of cookie dough onto a baking sheet lined with parchment paper.",
+      "Bake for 9-11 minutes or until golden brown around the edges.",
+      "Remove from the oven and let the cookies cool on the baking sheet for a few minutes before transferring them to a wire rack to cool completely."
+    ],
+    "approximate_time": "30-35 minutes",
+    "photo_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=481&q=80"
+  },
+  {
+    "name": "Omelette",
+    "category": "World",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "Salt and pepper to taste",
+      "1 tablespoon butter",
+      "Fillings of your choice (e.g., cheese, vegetables, ham)"
+    ],
+    "preparations": [
+      "In a bowl, whisk together eggs, milk, salt, and pepper until well combined.",
+      "Heat butter in a non-stick skillet over medium heat until melted.",
+      "Pour the egg mixture into the skillet and let it cook undisturbed for a minute.",
+      "Using a spatula, gently lift the edges of the omelette and tilt the skillet to allow the uncooked eggs to flow to the edges.",
+      "Once the omelette is mostly set but still slightly runny on top, add your choice of fillings to one side.",
+      "Fold the other side of the omelette over the fillings and cook for another minute until the cheese is melted (if using).",
+      "Slide the omelette onto a plate and serve hot."
+    ],
+    "approximate_time": "10-15 minutes",
+    "photo_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=481&q=80"
+  },
+
+  {
+    "name": "Berry Smoothie",
+    "category": "World",
+    "ingredients": [
+      "1 cup mixed berries (e.g., strawberries, blueberries, raspberries)",
+      "1 ripe banana",
+      "1 cup milk (dairy or plant-based)",
+      "1/2 cup plain yogurt",
+      "1 tablespoon honey or maple syrup (optional)"
+    ],
+    "preparations": [
+      "Place mixed berries, ripe banana, milk, plain yogurt, and sweetener (if using) in a blender.",
+      "Blend on high speed until smooth and creamy.",
+      "Taste and adjust the sweetness if necessary by adding more honey or maple syrup.",
+      "Pour the smoothie into glasses and serve immediately."
+    ],
+    "approximate_time": "5-10 minutes",
+    "photo_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=481&q=80"
+  }
+]
