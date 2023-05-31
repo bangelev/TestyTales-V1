@@ -14,9 +14,19 @@ client = TestClient(app)
 
 
 def test_get_single_recipe():
-    # Assuming a valid recipe ID
-    recipe_id = "0ed3a5f7-34bd-40a6-98b2-1c7c5a1d66ed"
-    response = client.get(f"/recipes/{recipe_id}")
+    existing_recipe_data = {
+        "name": "Spaghetti",
+        "category": "Italian",
+        "ingredients": ["pasta", "sauce", "meat"],
+        "instructions": ["Step 1", "Step 2", "Step 3"],
+        "approximate_time": "40 minutes"
+    }
+    existing_recipe = Recipe(**existing_recipe_data)
+    existing_recipe_id = recipes_collection.insert_one(
+        jsonable_encoder(existing_recipe)).inserted_id
+
+    
+    response = client.get(f"/recipes/{existing_recipe_id}")
     assert response.status_code == 200
     assert "recipe" in response.json()
 
@@ -39,6 +49,29 @@ def test_get_recipes():
     assert len(recipes) > 0
 
     assert isinstance(response.json(), list)
+
+def test_get_recipes_with_limit():
+    response = client.get("/recipes?limit=5")
+    assert response.status_code == 200
+    recipes = response.json()
+    assert len(recipes) == 5
+    assert isinstance(response.json(), list)
+
+def test_get_recipes_by_category():
+    response = client.get("/recipes?category=Italian")
+    assert response.status_code == 200
+    recipes = response.json()
+    assert len(recipes) > 0
+    for recipe in recipes:
+        assert recipe["category"] == "Italian"
+
+def test_get_recipes_with_limit_and_category():
+    response = client.get("/recipes?limit=3&category=World")
+    assert response.status_code == 200
+    recipes = response.json()
+    assert len(recipes) == 3
+    for recipe in recipes:
+        assert recipe["category"] == "World"
 
 
 def test_get_recipes_mongodb_error(mocker):

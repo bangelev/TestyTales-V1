@@ -13,7 +13,7 @@ The Recipe App is a web application that allows users to manage and discover rec
 
 ```bash
 git clone https://github.com/bangelev/TastyTales.git
-cd TastyTales
+cd TastyTales-V1
 
 ```
 
@@ -28,6 +28,7 @@ venv\Scripts\activate  # For Windows
 3. Install the required dependencies.
 
 ```bash
+cd Backend
 pip install -r requirements.txt
 ```
 
@@ -35,10 +36,26 @@ pip install -r requirements.txt
 
 - set up environment variables in .env file
 
-5. Start the application.
+- MongoDB uri - currently is setup to localhost
+
+  4.1 Seed the DB
 
 ```bash
-uvicorn app:app --reload
+cd Backend\utils
+python seedDB.py
+```
+
+5. Start the application.
+   If using local MongoDb activate
+
+```bash
+mongod
+```
+
+Activate the main app.py file
+
+```bash
+python app.py
 ```
 
 ## API Endpoints
@@ -51,9 +68,6 @@ uvicorn app:app --reload
 ## Testing
 
 Run the test suite to ensure proper functionality and error handling.
-```bash
-pytest
-```
 
 ```bash
 pytest
@@ -69,4 +83,4 @@ This project is not licensed
 
 ## Next to come
 
-Adding OAuth with GitHub
+Adding OAuth with GitHub and User model

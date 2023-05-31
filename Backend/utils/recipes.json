@@ -237,5 +237,143 @@
     ],
     "approximate_time": "5-10 minutes",
     "photo_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=481&q=80"
+  },
+  {
+    "name": "Chicken Biryani",
+    "category": "Indian",
+    "ingredients": [
+      "2 cups basmati rice",
+      "500g chicken, cut into pieces",
+      "1 large onion, thinly sliced",
+      "2 tomatoes, chopped",
+      "2 tablespoons biryani masala",
+      "1 teaspoon ginger-garlic paste",
+      "1/2 cup plain yogurt",
+      "Fresh coriander leaves, for garnish",
+      "Whole spices (cinnamon stick, cardamom pods, cloves)",
+      "Ghee (clarified butter) or cooking oil",
+      "Salt to taste"
+    ],
+    "preparations": [
+      "Rinse the rice and soak it in water for 30 minutes. Drain and set aside.",
+      "In a large pan, heat ghee or oil and sauté the whole spices for a minute.",
+      "Add onions and cook until golden brown. Then add ginger-garlic paste and cook for another minute.",
+      "Add chicken pieces and cook until they are browned.",
+      "Stir in tomatoes, biryani masala, and yogurt. Cook for 2-3 minutes.",
+      "Add the soaked rice and mix well. Pour water (1:2 ratio of rice to water), season with salt, and bring to a boil.",
+      "Reduce the heat, cover the pan, and let it simmer for about 20-25 minutes until the rice and chicken are cooked.",
+      "Garnish with fresh coriander leaves and serve hot."
+    ],
+    "approximate_time": "1 hour",
+    "photo_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=481&q=80"
+  },
+  {
+    "name": "Paneer Tikka Masala",
+    "category": "Indian",
+    "ingredients": [
+      "250g paneer (Indian cottage cheese), cubed",
+      "1 onion, finely chopped",
+      "2 tomatoes, pureed",
+      "1 capsicum (bell pepper), diced",
+      "2 tablespoons tikka masala powder",
+      "1 teaspoon ginger-garlic paste",
+      "1/2 cup heavy cream",
+      "1 tablespoon butter",
+      "Fresh coriander leaves, for garnish",
+      "Salt to taste"
+    ],
+    "preparations": [
+      "Heat butter in a pan and sauté onions until golden brown.",
+      "Add ginger-garlic paste and cook for a minute.",
+      "Stir in the tomato puree and cook for a few minutes until the oil separates.",
+      "Add tikka masala powder and salt. Mix well.",
+      "Add the diced capsicum and cook for 2-3 minutes.",
+      "Add the paneer cubes and gently stir to coat them with the masala.",
+      "Pour in the heavy cream and simmer for a few minutes until the flavors blend.",
+      "Garnish with fresh coriander leaves and serve with naan or rice."
+    ],
+    "approximate_time": "1 hour",
+    "photo_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=481&q=80"
+  },
+  {
+    "name": "Masoor Dal (Red Lentil Curry)",
+    "category": "Indian",
+    "ingredients": [
+      "1 cup masoor dal (red lentils)",
+      "1 onion, finely chopped",
+      "2 tomatoes, chopped",
+      "2 green chilies, slit",
+      "1 teaspoon cumin seeds",
+      "1/2 teaspoon turmeric powder",
+      "1 teaspoon red chili powder",
+      "1 teaspoon garam masala",
+      "2 tablespoons ghee or cooking oil",
+      "Fresh coriander leaves, for garnish",
+      "Salt to taste"
+    ],
+    "preparations": [
+      " Wash the lentils thoroughly and cook them in a pressure cooker with enough water until soft.",
+      "Heat ghee or oil in a pan and add cumin seeds. Let them splutter.",
+      "Add chopped onions and sauté until golden brown.",
+      "Stir in the green chilies, tomatoes, turmeric powder, red chili powder, and salt. Cook until the tomatoes are soft and well-cooked.",
+      "Add the cooked lentils to the pan and mix well.",
+      "Simmer for a few minutes, stirring occasionally.",
+      "Sprinkle garam masala and garnish with fresh coriander leaves before serving."
+    ],
+    "approximate_time": "40 minutes",
+    "photo_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=481&q=80"
+  },
+  {
+    "name": "Aloo Gobi (Potato and Cauliflower Curry)",
+    "category": "Indian",
+    "ingredients": [
+      "2 cups cauliflower florets",
+      "2 potatoes, peeled and cubed",
+      "1 onion, finely chopped",
+      "2 tomatoes, chopped",
+      "1 teaspoon cumin seeds",
+      "1 teaspoon turmeric powder",
+      "1 teaspoon coriander powder",
+      "1/2 teaspoon red chili powder",
+      "1/2 teaspoon garam masala",
+      "2 tablespoons cooking oil",
+      "Fresh coriander leaves, for garnish",
+      "Salt to taste"
+    ],
+    "preparations": [
+      "Heat oil in a pan and add cumin seeds. Let them splutter.",
+      "Add chopped onions and sauté until golden brown.",
+      "Stir in the tomatoes, turmeric powder, coriander powder, red chili powder, and salt. Cook until the tomatoes are soft and well-cooked.",
+      "Add the cauliflower florets and potatoes to the pan. Mix well to coat them with the masala.",
+      "Cover the pan and cook on low heat until the vegetables are tender.",
+      "Sprinkle garam masala and garnish with fresh coriander leaves before serving."
+    ],
+    "approximate_time": "35 minutes",
+    "photo_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=481&q=80"
+  },
+  {
+    "name": "Gulab Jamun",
+    "category": "Indian",
+    "ingredients": [
+      "1 cup milk powder",
+      "1/4 cup all-purpose flour",
+      "1/4 teaspoon baking soda",
+      "2 tablespoons ghee or melted butter",
+      "1/4 cup milk",
+      "A pinch of cardamom powder",
+      "Saffron strands (optional)",
+      "Sugar syrup (made with 1 cup sugar and 1 cup water)",
+      "Oil or ghee for frying"
+    ],
+    "preparations": [
+      "In a mixing bowl, combine milk powder, all-purpose flour, baking soda, ghee or melted butter, cardamom powder, and saffron strands.",
+      "Gradually add milk and mix to form a soft dough.",
+      "Divide the dough into small equal-sized balls and roll them gently.",
+      "Heat oil or ghee in a deep pan and fry the dough balls on low heat until they turn golden brown.",
+      "Drain the fried balls and soak them in warm sugar syrup for at least 30 minutes.",
+      "Serve Gulab Jamun warm or at room temperature."
+    ],
+    "approximate_time": "45 minutes",
+    "photo_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=481&q=80"
   }
 ]

@@ -4,6 +4,7 @@ from pymongo import MongoClient
 from pydantic import BaseModel, Field
 from typing import List, Optional
 import uuid
+import os
 
 from fastapi.encoders import jsonable_encoder
 
@@ -36,10 +37,10 @@ class Recipe(BaseModel):
     approximate_time: str
     created_at: str = str(datetime.now())
 
-
+db_uri = os.getenv('DB_LOCAL_URI')
 try:
     # Establish a connection to MongoDB
-    client = MongoClient('mongodb://localhost:27017')
+    client = MongoClient(db_uri)
     db = client['TastyTales']
     collection = db['recipes']
 

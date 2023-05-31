@@ -5,6 +5,7 @@ from typing import List, Optional
 from pymongo import ReturnDocument
 
 
+
 from pymongo.errors import PyMongoError
 from bson import json_util
 from fastapi.encoders import jsonable_encoder
@@ -17,10 +18,26 @@ recipes_router = APIRouter()
 
 # GET method to retrieve all recipes
 
+# @recipes_router.get("/recipes", response_model=List[Recipe])
+# async def get_recipes():
+#     try:
+#         recipes = recipes_collection.find({})
+
+#         return list(recipes)
+#     except PyMongoError as exc:
+#         raise HTTPException(status_code=500, detail="MongoDB error occurred")
+#     except Exception as e:
+#         raise HTTPException(status_code=500, detail="Internal server error")
+
 @recipes_router.get("/recipes", response_model=List[Recipe])
-async def get_recipes():
+async def get_recipes(limit: int = 10, category: Optional[str] = None):
     try:
-        recipes = recipes_collection.find({})
+        query = {}
+
+        if category:
+            query["category"] = category
+
+        recipes = recipes_collection.find(query).limit(limit)
 
         return list(recipes)
     except PyMongoError as exc:

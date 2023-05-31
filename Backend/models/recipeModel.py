@@ -4,11 +4,13 @@ from pymongo import MongoClient
 from pydantic import BaseModel, Field, validator
 from typing import List, Optional
 import uuid
-
+import os
 
 from enum import Enum
 
-client = MongoClient('mongodb://localhost:27017')
+db_uri = os.getenv('DB_LOCAL_URI')
+
+client = MongoClient(db_uri)
 db = client['TastyTales']
 recipes_collection = db['recipes']
 
