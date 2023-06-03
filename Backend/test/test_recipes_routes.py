@@ -25,10 +25,10 @@ def test_get_single_recipe():
     existing_recipe_id = recipes_collection.insert_one(
         jsonable_encoder(existing_recipe)).inserted_id
 
-    
     response = client.get(f"/recipes/{existing_recipe_id}")
     assert response.status_code == 200
     assert "recipe" in response.json()
+    recipes_collection.delete_one({"_id": existing_recipe_id})
 
 
 def test_get_single_recipe_not_found():
@@ -50,12 +50,14 @@ def test_get_recipes():
 
     assert isinstance(response.json(), list)
 
+
 def test_get_recipes_with_limit():
     response = client.get("/recipes?limit=5")
     assert response.status_code == 200
     recipes = response.json()
     assert len(recipes) == 5
     assert isinstance(response.json(), list)
+
 
 def test_get_recipes_by_category():
     response = client.get("/recipes?category=Italian")
@@ -64,6 +66,7 @@ def test_get_recipes_by_category():
     assert len(recipes) > 0
     for recipe in recipes:
         assert recipe["category"] == "Italian"
+
 
 def test_get_recipes_with_limit_and_category():
     response = client.get("/recipes?limit=3&category=World")

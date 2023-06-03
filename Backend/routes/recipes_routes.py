@@ -5,7 +5,6 @@ from typing import List, Optional
 from pymongo import ReturnDocument
 
 
-
 from pymongo.errors import PyMongoError
 from bson import json_util
 from fastapi.encoders import jsonable_encoder
@@ -19,9 +18,16 @@ recipes_router = APIRouter()
 # GET method to retrieve all recipes
 
 
-
 @recipes_router.get("/recipes", response_model=List[Recipe])
 async def get_recipes(limit: int = 10, category: Optional[str] = None):
+    """
+    Get recipes with optional filtering by category and limit the number of results.
+
+    - `limit` (optional): The maximum number of recipes to return (default: 10).
+    - `category` (optional): Filter recipes by category.
+
+    Returns a list of recipes matching the specified criteria.
+    """
     try:
         query = {}
 
@@ -41,6 +47,13 @@ async def get_recipes(limit: int = 10, category: Optional[str] = None):
 
 @recipes_router.get("/recipes/{id}")
 async def get_single_recipe(id: str):
+    """
+    Get a single recipe by ID.
+
+    - `id`: The ID of the recipe to retrieve.
+
+    Returns the recipe with the specified ID.
+    """
 
     recipe = recipes_collection.find_one({"_id": id})
     if recipe is None:
@@ -52,6 +65,13 @@ async def get_single_recipe(id: str):
 
 @recipes_router.post("/recipes", response_model=Recipe)
 async def add_recipe(recipe: RecipeCreate):
+    """
+    Add a new recipe.
+
+    - `recipe`: The details of the recipe to add.
+
+    Returns the newly added recipe.
+    """
     try:
         new_recipe = Recipe(**recipe.dict())
 
@@ -68,23 +88,17 @@ async def add_recipe(recipe: RecipeCreate):
 
 # PUT method to update a recipe by ID
 
-# @recipes_router.put("/recipes/{recipe_id}")
-# async def update_recipe(recipe_id: str, recipe: RecipeUpdate):
-#     existing_recipe = recipes_collection.find_one({"_id": recipe_id})
-#     if existing_recipe is None:
-#         raise HTTPException(status_code=404, detail="Recipe not found")
-#     result = recipes_collection.update_one(
-#         {"_id": recipe_id}, {"$set": jsonable_encoder(recipe)})
-# # ************************** CREATE ERROR IN TEST FILE????  *****************
-#     # Check the result of the update operation
-#     print(result.modified_count)
-#     # if result.modified_count == 0:
-#     #     raise HTTPException(
-#     #         status_code=500, detail="Failed to update document")
-# # ***************************************************************************
-#     return {"message": f"Recipe with id:{recipe_id} update successfully"}
+
 @recipes_router.put("/recipes/{recipe_id}")
 async def update_recipe(recipe_id: str, recipe: RecipeUpdate):
+    """
+    Update a recipe by ID.
+
+    - `recipe_id`: The ID of the recipe to update.
+    - `recipe`: The updated details of the recipe.
+
+    Returns a message indicating the successful update.
+    """
     existing_recipe = recipes_collection.find_one_and_update(
         {"_id": recipe_id},
         {"$set": jsonable_encoder(recipe)},
@@ -101,6 +115,13 @@ async def update_recipe(recipe_id: str, recipe: RecipeUpdate):
 
 @recipes_router.delete("/recipes/{id}")
 async def delete_recipe(id: str):
+    """
+    Delete a recipe by ID.
+
+    - `id`: The ID of the recipe to delete.
+
+    Returns a message indicating the successful deletion.
+    """
     recipe = recipes_collection.find_one({"_id": id})
     if recipe is None:
         raise HTTPException(status_code=404, detail="Recipe not found")
