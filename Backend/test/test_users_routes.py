@@ -9,7 +9,7 @@ client = TestClient(app)
 @pytest.fixture
 def access_token():
     # Replace with a valid access token for testing
-    return "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk5MWVjZTgtNGM1Mi00YjcxLThmN2UtZWJjYjk1Y2JjMWM0IiwidG9rZW5fdHlwZSI6ImJlYXJlciIsImV4cCI6MTY4NjMzNjk5OX0.8M6gQbIxakYt6jSVDpFHH--S844q0PPP1QVtZ0IppZU"
+    return "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk5MWVjZTgtNGM1Mi00YjcxLThmN2UtZWJjYjk1Y2JjMWM0IiwidG9rZW5fdHlwZSI6ImJlYXJlciIsImV4cCI6MTY4ODM3MDE1OX0.sCz0ml_0Je3jtrtS5ATJbOTI52Q_4ITqTN-EkyrU31I"
 
 
 @pytest.fixture
